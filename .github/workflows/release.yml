@@ -19,9 +19,7 @@ jobs:
 
       - name: Build
         run: |
-            sed -i "s/\(<Version>\([0-9]\+\.\)\{3\}\)\([0-9]\+\)/\1${{github.run_number}}/" "FontIconsLib/FontIconsLib.csproj"
-            dotnet build -c release
-            dotnet pack -c release -o nuget
+            dotnet pack -c release -o nuget -p:Version=1.0.0.{{github.run_number}}
             dotnet nuget push "nuget\*.nupkg" --skip-duplicate -k ${{secrets.NUGET_KEY}} -s https://api.nuget.org/v3/index.json
         
         
