@@ -5,7 +5,25 @@
 	  <UseWindowsForms>true</UseWindowsForms>
 	  <LangVersion>9</LangVersion>
 	  <Version>1.0.0.0</Version>
+	  <Title>FontIconsLib</Title>
+	  <Authors>jasondavis303</Authors>
+	  <Description>Library for using FontAwesome, MaterialIcons and BoxIcons in Windows.Forms apps</Description>
+	  <Copyright>Jason Davis </Copyright>
+	  <PackageProjectUrl>https://github.com/jasondavis303/FontIconsLib</PackageProjectUrl>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <RepositoryUrl>https://github.com/jasondavis303/FontIconsLib.git</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageTags>windows-forms; fontawesome; material-icons; box-icons</PackageTags>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
