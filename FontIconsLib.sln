@@ -5,6 +5,18 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontIconsLib", "FontIconsLib\FontIconsLib.csproj", "{A46D5250-6747-4750-8911-A2D9D6152ED2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B1869651-A17D-4BD9-9058-DC0906DB9FDD}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{E1045A90-15E4-4C80-989A-B2AC593F5330}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{814FCC06-A7BB-4188-9E21-FB14F9BEB35A}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\release.yml = .github\workflows\release.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +30,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1045A90-15E4-4C80-989A-B2AC593F5330} = {B1869651-A17D-4BD9-9058-DC0906DB9FDD}
+		{814FCC06-A7BB-4188-9E21-FB14F9BEB35A} = {E1045A90-15E4-4C80-989A-B2AC593F5330}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1134881D-74DF-4705-A580-290D2C097BED}
