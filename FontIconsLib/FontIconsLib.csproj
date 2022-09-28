@@ -15,7 +15,6 @@
 	  <RepositoryType>git</RepositoryType>
 	  <PackageTags>windows-forms; fontawesome; material-icons; box-icons</PackageTags>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
-	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
