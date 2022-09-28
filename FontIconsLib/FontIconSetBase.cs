@@ -36,7 +36,7 @@ namespace FontIconsLib
 
 
 
-        public Bitmap GetImage(string name, Color color) => GetImage(name, new Options { BackColor = color });
+        public Bitmap GetImage(string name, Color color) => GetImage(name, new Options { ForeColor = color });
 
         public Bitmap GetImage(string name, Options opts = null)
         {
